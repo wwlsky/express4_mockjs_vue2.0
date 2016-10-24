@@ -1,0 +1,21 @@
+{
+  "name": "app_server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "access-control": "^1.0.0",
+    "body-parser": "~1.15.1",
+    "express": "~4.13.4",
+    "express-jwt": "^5.1.0",
+    "glob": "^7.1.1",
+    "helmet": "^2.3.0",
+    "jsonwebtoken": "^7.1.9"
+  },
+  "devDependencies": {
+    "mockjs": "^1.0.1-beta3",
+    "nodemon": "^1.11.0"
+  }
+}
